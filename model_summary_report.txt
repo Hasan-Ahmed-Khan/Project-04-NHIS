@@ -1,0 +1,39 @@
+MOBILE PHONE PRICE PREDICTION - MODEL SUMMARY REPORT
+============================================================
+
+DATASET INFORMATION:
+- Total records: 541
+- Features analyzed: 15
+
+MODEL PERFORMANCE METRICS:
+- Linear Regression - MAE: 36519047838797.23, RMSE: 107521452582729.94, R²: -83879037951671320576.0000
+- Ridge Regression - MAE: 2374.41, RMSE: 6468.70, R²: 0.6964
+- Random Forest - MAE: 1809.14, RMSE: 4568.79, R²: 0.8486
+
+KEY INFLUENTIAL FEATURES (TOP 10):
+- Front_Camera_MP: 0.4379
+- Battery_Capacity: 0.0928
+- Memory: 0.0785
+- Model_APPLE iPhone 14 Plus: 0.0502
+- Model_Google Pixel 7: 0.0486
+- RAM: 0.0454
+- Processor__Google Tensor G2: 0.0411
+- Mobile Height: 0.0376
+- Rear_Camera_MP: 0.0327
+- Processor__6 Core: 0.0110
+
+FEATURE CORRELATION WITH PRICE:
+- Memory: 0.5667
+- Front_Camera_MP: 0.5323
+- RAM: 0.5320
+- Rear_Camera_MP: 0.4104
+- Mobile Height: 0.1760
+- Battery_Capacity: -0.0343
+- AI Lens: -0.1537
+
+RECOMMENDATIONS:
+1. Focus marketing efforts on highlighting the RAM and Memory specifications as they have the strongest correlation with price.
+2. Camera specifications, particularly rear camera, significantly impact pricing strategy.
+3. Battery capacity has moderate influence on price - emphasize this for mid-range models.
+4. Certain processor types have high feature importance - identify these premium processors for targeted marketing campaigns.
+5. Consider model-specific pricing strategies based on brand premium identified in the analysis.
